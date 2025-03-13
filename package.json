@@ -43,5 +43,12 @@
     "tailwindcss": "^3.4.1",
     "ts-jest": "^29.2.6",
     "typescript": "5.4.5"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "bigint-buffer",
+      "bufferutil",
+      "utf-8-validate"
+    ]
   }
 }
